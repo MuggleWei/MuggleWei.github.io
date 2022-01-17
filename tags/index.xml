@@ -8,6 +8,25 @@
       <url>https://mugglewei.github.io/papermod-cover.png</url>
       <link>https://mugglewei.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://mugglewei.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jan 2022 00:14:02 +0800</lastBuildDate><atom:link href="https://mugglewei.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>感悟</title>
+      <link>https://mugglewei.github.io/tags/%E6%84%9F%E6%82%9F/</link>
+      <pubDate>Tue, 18 Jan 2022 00:14:02 +0800</pubDate>
+      
+      <guid>https://mugglewei.github.io/tags/%E6%84%9F%E6%82%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数学</title>
+      <link>https://mugglewei.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Tue, 18 Jan 2022 00:14:02 +0800</pubDate>
+      
+      <guid>https://mugglewei.github.io/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
