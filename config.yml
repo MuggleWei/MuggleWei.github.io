@@ -1,5 +1,5 @@
 baseURL: "https://mugglewei.github.io/"
-title: MuggleWei
+title: Home
 paginate: 5
 theme: PaperMod
 
@@ -84,7 +84,7 @@ params:
         - name: github
           url: "https://github.com/MuggleWei"
         - name: email
-          url: "mailto://mugglewei@gmail.com"
+          url: "mailto:mugglewei@gmail.com"
         #- name: KoFi
         #  url: "https://ko-fi.com/adityatelange"
         #- name: RsS
