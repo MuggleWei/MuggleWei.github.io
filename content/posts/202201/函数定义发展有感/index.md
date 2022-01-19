@@ -5,7 +5,6 @@ draft: true
 tags: ["数学", "数学史", "感悟"]
 categories: ["数学"]
 series: []
-math: true
 ---
 
 **集合**  
