@@ -1,5 +1,5 @@
 baseURL: "https://mugglewei.github.io/"
-title: Home
+title: 主页
 paginate: 5
 theme: PaperMod
 
@@ -17,23 +17,23 @@ minify:
 
 languages:
     en:
-        languageName: "English"
+        languageName: "中文"
         weight: 1
         menu:
             main:
-                - name: Archive
+                - name: 归档
                   url: archives
                   weight: 1
-                - name: Search
+                - name: 搜索
                   url: search/
                   weight: 2
-                - name: Series
+                - name: 系列
                   url: series
                   weight: 3
-                - name: Categories
+                - name: 分类
                   url: categories/
                   weight: 4
-                - name: Tags
+                - name: 标签
                   url: tags/
                   weight: 5
 
