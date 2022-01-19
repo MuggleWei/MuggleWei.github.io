@@ -15,20 +15,21 @@ minify:
     disableXML: true
     # minifyOutput: true
 
+defaultContentLanguage: zh
 languages:
-    en:
+    zh:
         languageName: "中文"
         weight: 1
         menu:
             main:
                 - name: 归档
-                  url: archives
+                  url: archives/
                   weight: 1
                 - name: 搜索
                   url: search/
                   weight: 2
                 - name: 系列
-                  url: series
+                  url: series/
                   weight: 3
                 - name: 分类
                   url: categories/
