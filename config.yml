@@ -49,8 +49,9 @@ params:
     #description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     description: ""
     author: ""
-    math: true
     # author: ["Me", "You"] # multiple authors
+    math: true
+    humble: true
 
     defaultTheme: auto
     # disableThemeToggle: true
