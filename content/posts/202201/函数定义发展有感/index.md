@@ -29,14 +29,14 @@ $$
 
 ---
 
-&emsp;&emsp;上面的几个数学定义是高中初始阶段就需要学习的基本概念，一般先给学生们介绍集合及集合间的的关系，接着便是映射和函数，印象中这是十分自然的事情。然而回顾历史，**函数**这个词最早是由[莱布尼茨](https://zh.wikipedia.org/wiki/%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%8E%B1%E5%B8%83%E5%B0%BC%E8%8C%A8)于1673年提出[^1]，而集合论则要等到200多年后的1874年，[康托尔](https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E5%BA%B7%E6%89%98%E5%B0%94)发表论文"关于所有实代数数集的一个性质"[^2]才正式出现。  
+&emsp;&emsp;上面的几个数学定义是高中初始阶段就需要学习的基本概念，一般先给学生们介绍集合及集合间的的关系，接着便是映射和函数，印象中这是十分自然的事情。然而最近在看书的过程中偶然发现，**函数**这个词最早是由[莱布尼茨](https://zh.wikipedia.org/wiki/%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%8E%B1%E5%B8%83%E5%B0%BC%E8%8C%A8)于1673年提出[^1]，而集合论则要等到200多年后的1874年，[康托尔](https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E5%BA%B7%E6%89%98%E5%B0%94)发表论文"关于所有实代数数集的一个性质"[^2]才正式出现。  
 &emsp;&emsp;那么在集合论出现之前的函数定义是什么样子的？ 函数是如何一步一步的发展成现在的定义的呢？  
 
 ## 函数概念的演化
-&emsp;&emsp;函数的定义并非一蹴而就，由某位天才灵感一现而发明，而是随着人类在各种不同学科的发展下，在实践中提出概念，逐步升级，愈发严谨精确的一个过程。  
+&emsp;&emsp;函数的定义并非一蹴而就，由某位天才灵感一现而发明，而是随着人类在各种不同学科的发展下，在实践中提出概念，逐步升级，演进的一个过程。  
 
 ### 模糊的概念
-&emsp;&emsp;历史上，有许多数学家，物理学家，天文学家等都用到了与现代函数类似的概念，只不过没有明确的给出一个定义。  
+&emsp;&emsp;历史上，有许多数学家，物理学家，天文学家等都用到了与函数类似的概念，只不过没有明确的给出一个定义。  
 &emsp;&emsp;在1638年[伽利略](https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1)研究同心圆的问题，有两个圆A和B，大圆A的周长是小圆B的两倍，在圆A上任取一点P，过OP做B的割线, 从而将A与B上的每个点对应了起来；同理在B上取一点Q, 用OQ及延长线来割圆A，也可以明确找到A上对应的点。虽然圆A的周长是圆B的两倍，但他们有相同数量的点。伽利略还发现了在正整数和其平方之间标准的一一对应的关系， 这(用现代术语来说)给出了自然数集合N与其真子集的双射。[^1]  
 
 &emsp;&emsp;几乎与此同时，1637年[笛卡尔](https://zh.wikipedia.org/wiki/%E5%8B%92%E5%86%85%C2%B7%E7%AC%9B%E5%8D%A1%E5%B0%94)在《几何学》中将代数引入了几何学当中。书中提到[^3]:  
@@ -67,6 +67,14 @@ $$
 >...  
 >是欧拉提出了泛函的观点。   
 
+#### 未完待续
+
+## 后记与感悟
+&emsp;&emsp;搜了一下当年的高中教科书(2004年版人教版数学必修1)，其实在第一章第二节的课后阅读与思考便有介绍函数概念的发展历程，当年刚学，应该是没能意识到这件事的趣味与意义，没想到将近二十年之后才恍然发现这件事，觉得十分有趣。尤其是最后几句，在工作了正好十年的这个时间点上读到，感觉颇有深意[^8]:  
+>函数概念的发展与生产、生活以及科学技术的实际需要紧密相关，而随着研究的深入，函数概念不断得到严谨化、精确化的表达，这与我们学习函数的过程是一样的。  
+
+&emsp;&emsp;的确如此，无论是做科学研究还是工程技术，在学习知识，掌握技能，产出结果的过程中，我们通常都无法一步到位，一次性做出满意的结果，而是不断的尝试，学习，摸索着前进，将最终的成果变得越来越完善，越来越令人满意。
+
 ## 引用
 [^1]: O'Connor, John J.; Robertson, Edmund F., ["The function concept"](https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/), MacTutor History of Mathematics archive, University of St Andrews
 [^2]: Cantor, Georg (1874), "Ueber eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen", Journal für die reine und angewandte Mathematik (in German), 1874 (77): 258–262, doi:10.1515/crll.1874.77.258, S2CID 199545885
@@ -75,3 +83,4 @@ $$
 [^5]: A P Youschkevitch, The concept of function up to the middle of the 19th century, Arch. History Exact Sci. 16 (1) (1976/77), 37-85
 [^6]: Eves, Howard (1990). Foundations and Fundamental Concepts of Mathematics (3rd ed.). Dover. ISBN 0-486-69609-X. p. 234
 [^7]: 欧拉 (2019), "无穷分析引论"，ISBN 9787560364445
+[^8]: 数学1 必修 A版, 人民教育出版社，2004，ISBN 7-107-17705-2. p. 31
