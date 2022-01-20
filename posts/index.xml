@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 主页</title>
+    <link>https://mugglewei.github.io/posts/</link>
+    <description>Recent content in Posts on 主页</description>
+    <image>
+      <url>https://mugglewei.github.io/papermod-cover.png</url>
+      <link>https://mugglewei.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jan 2022 00:14:02 +0800</lastBuildDate><atom:link href="https://mugglewei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>函数概念的演化</title>
+      <link>https://mugglewei.github.io/posts/202201/%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%8F%91%E5%B1%95%E6%9C%89%E6%84%9F/</link>
+      <pubDate>Tue, 18 Jan 2022 00:14:02 +0800</pubDate>
+      
+      <guid>https://mugglewei.github.io/posts/202201/%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%8F%91%E5%B1%95%E6%9C%89%E6%84%9F/</guid>
+      <description>集合
+具有某种特性的事物的整体，或是一些确认对象的汇集
+ 构成集合的事物或对象称作元素 集合具有无序性，互异性 和 确定性  映射
+\(X\)，\(Y\)是两个给定的集合，若按照某种规则\(f\)，使得对集合\(X\)中的每一个元素\(x\)，都可以找到集合\(Y\)中唯一确定的元素\(y\)与之对应，则称\(f\)是集合\(X\)到集合\(Y\)的一个映射，记为:
+$$ \begin{aligned} f: &amp;amp;X \rightarrow Y \newline &amp;amp;x \mapsto y=f(x) \end{aligned} $$
+ \(y\)称为映射f之下\(x\)的像 集合\(X\)称为映射\(f\)的定义域 在映射\(f\)之下，\(X\)中元素\(x\)的像\(y\)的全体称为映射的值域  函数
+当\(X\)和\(Y\)是非空的数集，则映射\(f: X \rightarrow Y \)称为函数
+  上面的几个数学定义是高中初始阶段就需要学习的基本概念，一般先给学生们介绍集合及集合间的的关系，接着便是映射和函数，印象中这是十分自然的事情。然而最近在看书的过程中偶然发现，函数这个词最早是由莱布尼茨于1673年提出1，而集合论则要等到200多年后的1874年，康托尔发表论文&amp;quot;关于所有实代数数集的一个性质&amp;quot;2才正式出现。
+那么在集合论出现之前的函数定义是什么样子的？ 函数是如何一步一步的发展成现在的定义的呢？
+函数概念的演化 模糊的概念  历史上早期，有许多数学家，物理学家，天文学家等都用到了与函数类似的概念，只不过没有明确的给出一个定义。
+在1638年伽利略研究同心圆的问题，有两个圆A和B，大圆A的周长是小圆B的两倍，在圆A上任取一点P，过OP做B的割线, 从而将A与B上的每个点对应了起来；同理在B上取一点Q, 用OQ及延长线来割圆A，也可以明确找到A上对应的点。虽然圆A的周长是圆B的两倍，但他们有相同数量的点。伽利略还发现了在正整数和其平方之间标准的一一对应的关系， 这(用现代术语来说)给出了自然数集合N与其真子集的双射。1
+ 几乎与此同时，1637年笛卡尔在《几何学》中将代数引入了几何学当中。书中提到3:
+ 这些曲线上的所有的点，必定跟直线上的所有的点具有一种确定的关系，而且这种关系必须用单个的方程来表示。
+&amp;hellip;
+用这种方法，我们总能找到足以决定曲线上所有点的一个方程
+  这实质上是在构造曲线的过程中引入了函数的思想，只是当时尚未意识到需要提炼出明确的概念定义。
+ 1673年, 莱布尼茨在一封信中使用了函数这个词，来表示随曲线变化而改变的量, 例如曲线上一点的坐标，曲线的斜率等14。
+明确的定义  1694年9月2日，约翰.伯努利在写给莱布尼茨的信中，这样描述函数1:
+ 由变量和常量以某种方式组合形成的另一个量
+  1698年, 约翰.伯努利在一篇关于等周长的论文中写下了&amp;quot;坐标函数&amp;quot;5，当时约翰.伯努利正在研究变分法问题，函数作为解决方案出现。到1718年，他将函数描述为6:
+ 任何由变量和一些常量组成的表达式</description>
+    </item>
+    
+  </channel>
+</rss>
