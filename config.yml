@@ -51,6 +51,7 @@ params:
     author: ""
     # author: ["Me", "You"] # multiple authors
     math: true
+    graphviz: true
     humble: true
 
     defaultTheme: auto
@@ -137,13 +138,13 @@ markup:
     goldmark:
         renderer:
             unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: false
+        lineNos: true
+        # noClasses: false
+        style: monokai
 
 privacy:
     vimeo:
