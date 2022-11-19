@@ -7,5 +7,16 @@
 
 	<link rel="stylesheet" href="{{ "/katex@0.15.2/katex.min.css" | relURL }}" crossorigin="anonymous">
 	<script defer src="{{ "/katex@0.15.2/katex.min.js" | relURL }}" crossorigin="anonymous"></script>
-	<script defer src="{{ "/katex@0.15.2/contrib/auto-render.min.js" | relURL }}" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+	<script>
+		// see: https://stackoverflow.com/questions/27375252/how-can-i-render-all-inline-formulas-in-with-katex
+		katexDelimiters = {
+			delimiters: [
+				{left: '$$', right: '$$', display: true},
+				{left: '$', right: '$', display: false},
+				{left: '\\(', right: '\\)', display: false},
+			],
+			throwOnError : false
+		}
+	</script>
+	<script defer src="{{ "/katex@0.15.2/contrib/auto-render.min.js" | relURL }}" crossorigin="anonymous" onload="renderMathInElement(document.body, katexDelimiters);"></script>
 {{ end }}
