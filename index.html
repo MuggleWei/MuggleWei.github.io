@@ -24,7 +24,8 @@
 </noscript><link rel=stylesheet href=/customize/style.css>
 <link rel=stylesheet href=/katex@0.15.2/katex.min.css crossorigin=anonymous>
 <script defer src=/katex@0.15.2/katex.min.js crossorigin=anonymous></script>
-<script defer src=/katex@0.15.2/contrib/auto-render.min.js crossorigin=anonymous onload=renderMathInElement(document.body)></script>
+<script>katexDelimiters={delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1},{left:'\\(',right:'\\)',display:!1}],throwOnError:!1}</script>
+<script defer src=/katex@0.15.2/contrib/auto-render.min.js crossorigin=anonymous onload=renderMathInElement(document.body,katexDelimiters)></script>
 <meta property="og:title" content="MuggleWei">
 <meta property="og:description" content>
 <meta property="og:type" content="website">
