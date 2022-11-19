@@ -32,6 +32,7 @@ if __name__ == "__main__":
 ```
 
 ## katex
+
 $$
 \begin{aligned}
 & (x_1, y_1) = \lambda(x_2, y_2) \newline
@@ -44,6 +45,11 @@ $$
 \Rightarrow & x_1 y_2 - x_2 y_1 = 0
 \end{aligned}
 $$
+
+使用`$`在行内插入 $y = ax^2 + b$  
+使用`\\(`和`\\)`在行内插入 \\((x-a)^2+(y-b)^2 = r^2\\)  
+
+使用`$`插入公式为非Katex默认行为, 具体配置在 `extend_head.html` 的 `katexDelimiters` 当中
 
 ## viz.js
 ```graphviz
