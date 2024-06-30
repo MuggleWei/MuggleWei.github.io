@@ -1,7 +1,7 @@
 ---
 title: "什么是量化交易-暨驳斥近期网络上关于要打击量化的反智言论"
 date: 2024-06-30T20:29:44+08:00
-draft: true
+draft: false
 categories: ["量化交易"]
 tags: ["交易"]
 ---
